@@ -2,7 +2,7 @@
 #
 ### Contacts
 * **Location**: Russia. Stavropol
-* **Phone**: +7 953 288-75-79
+* **Phone**: +7 953 288-79-75
 * **Email**: marivasilevskaa3@gmail.com
 * **GitHub**: Mari-Vasilevskaya
 ---
