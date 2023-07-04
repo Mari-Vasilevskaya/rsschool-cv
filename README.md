@@ -1,1 +1,1 @@
-[CV](https://Mari-Vasilevskaya.github.io/rsschool-cv/cv)
+[CV](https://Mari-Vasilevskaya.github.io/rsschool-cv/)
