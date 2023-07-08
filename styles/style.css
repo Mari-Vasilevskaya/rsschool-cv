@@ -2,7 +2,9 @@ body {
     background-color: aqua;
     display: flex;
     justify-content: center;
-}
+    text-align: center;
+    font-family: math;
+   }
 
 .externalContainer {
     width: 600px;
@@ -16,19 +18,54 @@ body {
     width: auto;
     height: 200px;
     border: solid;
-    border-bottom-width: 1px;
+    border-width: 1px;
     border-color: black;
     display: flex;
+    font-family: math;
+    
 }
 
 .photo {
-    width: 20%;
+    width: 40%;
 }
 
-.content {
+.name {
+    width: 50%;
+    border: solid;
+    border-width: 1px;
+}
+
+.photoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50%;
     border: solid;
     border-width: 1px;
     border-color: black;
-    align-content: center;
+}
+
+.contentTopic {
+    width: 50%;
+    border: solid;
+    border-width: 1px;
+    text-align: left;
+}
+
+.contentDescription {
+    width: 50%;
+    text-align: left;
+    border: solid;
+    border-width: 1px;
+}
+
+h3 {
+    margin-left: 5px;
+}
+
+p {
+    margin: 5px;
+    background: #7FFFD4;
+    font-family: math;
+    font-size: 14px;
 }
