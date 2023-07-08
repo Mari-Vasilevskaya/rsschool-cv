@@ -8,31 +8,27 @@ body {
 
 .externalContainer {
     width: 600px;
-    height: 1200px;
     background-color: white;
-    border: solid;
-    border-color: black;
 }
 
 .chapterContainer {
     width: auto;
-    height: 200px;
-    border: solid;
-    border-width: 1px;
-    border-color: black;
     display: flex;
-    font-family: math;
-    
+    margin-top: 30px;
 }
 
 .photo {
     width: 40%;
+    width: 140px;
+    height: 170px;
+    border-radius: 70%;
 }
 
 .name {
     width: 50%;
-    border: solid;
-    border-width: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .photoContainer {
@@ -40,27 +36,21 @@ body {
     align-items: center;
     justify-content: center;
     width: 50%;
-    border: solid;
-    border-width: 1px;
-    border-color: black;
 }
 
 .contentTopic {
     width: 50%;
-    border: solid;
-    border-width: 1px;
     text-align: left;
 }
 
 .contentDescription {
     width: 50%;
     text-align: left;
-    border: solid;
-    border-width: 1px;
 }
 
 h3 {
-    margin-left: 5px;
+    margin-left: 15px;
+    margin-top: 5px;
 }
 
 p {
@@ -68,4 +58,21 @@ p {
     background: #7FFFD4;
     font-family: math;
     font-size: 14px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.contactsContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.contacts {
+    width: 300px;
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
 }
