@@ -1,3 +1,6 @@
+html {
+   scroll-behavior: smooth;
+}
 body {
    background-color: #8FBC8F;
    justify-content: center;
@@ -24,7 +27,7 @@ body {
    margin: 0px;
    padding: 0px;
 }
-.chapterContainer {
+.chapter-container {
     width: auto;
     display: flex;
     margin-top: 30px;
@@ -32,7 +35,7 @@ body {
 }
 .photo {
     width: 140px;
-    height: 170px;
+    height: 199px;
     border-radius: 90%;
 }
 .name {
@@ -41,17 +44,17 @@ body {
     align-items: center;
     justify-content: center;
 }
-.photoContainer {
+.photo-container {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
 }
-.contentTopic {
+.content-topic {
     width: 50%;
     text-align: left;
 }
-.contentDescription {
+.content-description {
     width: 50%;
     text-align: left;
 }
@@ -72,7 +75,7 @@ ul {
     font-family: math;
     font-size: 14px;
 }
-.contactsContainer {
+.contacts-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
