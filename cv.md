@@ -3,7 +3,7 @@
 ### Contacts
 
 * **Location**: Russia. Stavropol
-* **Phone**: +7 953 288-79-75
+* **Discord**: m.ari_v.asilevskaya
 * **Email**: marivasilevskaa3@gmail.com
 * **GitHub**: [Mari-Vasilevskaya](https://github.com/Mari-Vasilevskaya)
 
@@ -34,7 +34,17 @@
 
 ### Code Example
 
-Will be added over time
+```
+function digits(n) {
+   if(n === 0) {
+      return 1;
+   }
+for(var i = 0; Math.floor(n) > 0; i++) {
+      n /= 10;
+   }
+   return i;
+}
+```
 
 ---
 
@@ -60,4 +70,4 @@ I start my studies at rolling-scopes-school
 
 ### English
 
-A1
+A1 (continue to learn English)
