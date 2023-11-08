@@ -1,202 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="./style.css">
-      <title>Marina Vasilevskaya</title>
-    </head>
-   <body>
-      <div class="wrapper">
-         <header>
-            <nav class="header">
-               <ul class="nav">
-                  <li><a href="#name">Name</a></li>
-                  <li><a href="#about-me">About Me</a></li>
-                  <li><a href="#skills">Skills</a></li>
-                  <li><a href="#code-example">Code Example</a></li>
-                  <li><a href="#experience">Experience</a></li>
-                  <li><a href="#projects">Projects</a></li>
-                  <li><a href="#education">Education</a></li>
-                  <li><a href="#courses">Courses</a></li>
-                  <li><a href="#english">English</a></li>
-                  <li><a href="#contacts">Contacts</a></li>
-               </ul>
-            </nav>
-         </header>
-         <main>
-            <div class="chapter-container">
-               <div class="photo-container">
-                  <img alt="photo" class="photo" src="./DSC_0921.jpg">
-               </div>
-               <a id="name">
-                  <div class="name">
-                     <h1>Marina Vasilevskaya</h1>
-                  </div>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon_io/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon_io/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon_io/favicon-16x16.png">
+   <link rel="manifest" href="./img/favicon_io/site.webmanifest">
+   <link rel="stylesheet" href="./inter-v13-latin/inter-v13-latin-700.woff2">
+   <link rel="stylesheet" href="./inter-v13-latin/inter-v13-latin-regular.woff2">
+   <link rel="stylesheet" href="./reset.css">
+   <link rel="stylesheet" href="./style.css">
+   <title>Rsschool-cv-html</title>
+</head>
+<body>
+   <header>
+      <nav class="header">
+         <ul class="nav">
+            <li><a href="#name" class="active"><b>Name</b></a></li>
+            <li><a href="#skills" class="active"><b>Skills</b></a></li>
+            <li><a href="#education" class="active"><b>Education</b></a></li>
+            <li><a href="#contacts" class="active"><b>Contacts</b></a></li>
+         </ul>
+      </nav>
+   </header>
+   <main>
+      <div class="chapter-container">
+         <div class="photo-container">
+            <img alt="photo" class="photo" src="./img/DSC_0921.jpg">
+         </div>
+         <a id="name">
+            <div class="name">
+               <h1>Marina Vasilevskaya</h1>
+            </div>
+         </a>
+      </div>
+   </main>
+   <footer>
+      <div class="footer-container">
+         <div class="footer__logo">
+            <a href="https://rs.school/js/">
+               <img src="./img/svg/rs_school.svg" alt="RS_School-Logo">
+            </a>
+         </div>
+         <div class="year">
+            <b>2023</b>
+         </div>
+         <div class="contacts">
+            <div>
+               <a id="contacts">
+                  <h3>Contacts</h3>
                </a>
             </div>
-            <div class="chapter-container">
-               <div class="content-topic">
-                  <a id="about-me">
-                     <h2>About Me</h2>
-                  </a>
-               </div>
-               <div class="content-description">
-                  <p>
-                     Musical director of the 1st category. Development of scenarios, holding thematic events, thematic decoration of the premises.
-                  </p>
-                  <p>
-                     I plan to develop in frontend development, strive to become part of a friendly and professional team in which I could develop my development skills to achieve team results.
-                  </p>
-                  <p>
-                  <b>Key Skills</b>
-                  </p>
-                  <ul>
-                     <li>Teamwork</li>
-                     <li>Responsibility</li>
-                     <li>Creativity</li>
-                     <li>Desire for novelty</li>
-                  </ul>
-               </div>
-            </div>
-            <div class="chapter-container">
-               <div class="content-topic">
-                  <a id="skills">
-                     <h2>Skills</h2>
-                  </a>
-               </div>
-               <div class="content-description">
-                  <ul>
-                     <li>HTML</li>
-                     <li>CSS</li>
-                     <li>Git</li>
-                     <li>JavaScript</li>
-                  </ul>
-               </div>
-            </div>
-            <div class="chapter-container">
-               <div class="content-topic">
-                  <a id="code-example">
-                     <h2>Code Example</h2>
-                  </a>
-               </div>
-               <div class="content-description">
-                  <pre>
-                  <code>
-   function digits(n) {
-      if(n === 0) {
-         return 1;
-      }
-   
-      for(var i = 0; Math.floor(n) > 0; i++) {
-         n /= 10;
-      }
-   
-      return i;
-   }
-                  </code>
-                  </pre>
-               </div>
-            </div>
-            <div class="chapter-container">
-               <div class="content-topic">
-                  <a id="experience">
-                     <h2>Experience</h2>
-                  </a>
-               </div>
-               <div class="content-description">
-                  <p>
-                     Will be added over time
-                  </p>
-               </div>
-            </div>
-            <div class="chapter-container">
-               <div class="content-topic">
-                  <a id="projects">
-                     <h2>Projects</h2>
-                  </a>
-               </div>
-               <div class="content-description">
-                  <ul class="footer__list">
-                     <li>
-                        <a href="https://mari-vasilevskaya.github.io/rsschool-cv/cv">CV Markdown</a>
-                     </li>
-                     <li>
-                        <a href="https://github.com/Mari-Vasilevskaya/rsschool-cv/tree/rsschool-cv-html">CV HTML</a>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-            <div class="chapter-container">
-               <div class="content-topic">
-                  <a id="education">
-                     <h2>Education</h2>
-                  </a>
-               </div>
-               <div class="content-description">
-                  <ul>
-                     <li>Educational institution: Minsk State College of Arts</li>
-                     <li>Faculty: folk art</li>
-                     <li>Specialization: folk music</li>
-                  </ul>
-               </div>
-            </div>
-            <div class="chapter-container">
-               <div class="content-topic">
-                  <a id="courses">
-                     <h2>Courses</h2>
-                  </a>
-               </div>
-               <div class="content-description">
-                  <p>
-                     I start my studies at rolling-scopes-school 
-                  </p>
-               </div>
-            </div>
-            <div class="chapter-container">
-               <div class="content-topic">
-                  <a id="english">
-                     <h2>English</h2>
-                  </a>
-               </div>
-               <div class="content-description">
-                  <p>
-                     A1 (keep learning the language)
-                  </p>
-               </div>
-            </div>
-         </main>
-         <footer>
-            <div class="contacts-container">
-               <div class="footer__logo">
-                  <a href="https://rs.school/js/">
-                  <img src="./rs_school.svg" alt="RS_School-Logo"></a>
-               </div>
-               <div class="contacts">
-                  <div>
-                     <a id="contacts">
-                        <h3>Contacts</h3>
-                     </a>
-                  </div>
-                  <div>
-                     <ul class="footer__list">
-                        <li>
-                           <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">marivasilevskaa3@gmail.com</a>
-                        </li>
-                        <li>
-                           <a href="tel:+79532887975">+7 (953) 288-79-75</a>
-                        </li>
-                        <li>
-                           <a href="https://github.com/Mari-Vasilevskaya">GitHub: Mari-Vasilevskaya</a>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
             <div>
-               <b>2023</b>
+               <ul class="footer__list key-skills">
+                  <li>
+                     <a class="active" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank"><b>marivasilevskaa3@gmail.com</b></a>
+                  </li>
+                  <li>
+                     <a class="active" href="https://github.com/Mari-Vasilevskaya" target="_blank"><b>GitHub: Mari-Vasilevskaya</b></a>
+                  </li>
+                  <li>
+                     <a class="active" href="https://discord.com/channels/516715744646660106/747714817845887036" target="_blank"><b>Discord: m.ari_v.asilevskaya</b></a>
+                  </li>
+               </ul>
             </div>
-         </footer>
+         </div>
       </div>
-    </body>
+   </footer>
+</body>
 </html>
