@@ -161,3 +161,54 @@ a {
    font-weight: 400;
    transition: .9s;
 }
+.footer-container {
+   width: inherit;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+   background: linear-gradient(to right, #fdfdfd8e, #3c444471);
+}
+.footer__logo {
+   width: 250px;
+   padding: 10px 10px 0 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.footer__logo img {
+   transition: 1s; 
+}
+.footer__logo img:hover {
+   transform: scale(1.2); 
+}
+.year{
+   width: 250px;
+   padding: 10px 10px 0 10px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+img {
+   width: 100px;
+   height: 40px; 
+}
+.contacts {
+   width: 250px;
+   padding: 20px 10px 20px 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.footer__list {
+   list-style-type: none;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
