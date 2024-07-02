@@ -14,59 +14,171 @@
    <title>Rsschool-cv-html</title>
 </head>
 <body>
-   <header>
-      <nav class="header">
-         <ul class="nav">
-            <li><a href="#name" class="active"><b>Name</b></a></li>
-            <li><a href="#skills" class="active"><b>Skills</b></a></li>
-            <li><a href="#education" class="active"><b>Education</b></a></li>
-            <li><a href="#contacts" class="active"><b>Contacts</b></a></li>
-         </ul>
-      </nav>
-   </header>
-   <main>
-      <div class="chapter-container">
-         <div class="photo-container">
-            <img alt="photo" class="photo" src="./img/DSC_0921.jpg">
-         </div>
-         <a id="name">
-            <div class="name">
-               <h1>Marina Vasilevskaya</h1>
+   <header class="header">
+      <div class="container">
+          <div class="header__container">
+            <div class="header__photo">
+               <img src="./img/DSC_0921.jpg" alt="photo" class="photo__container">
             </div>
+               <div class="header__content">
+                  <nav class="header__menu">
+                     <ul class="nav__list">
+                        <li class="nav__item">
+                           <a href="#about" class="nav__link">About Me</a>
+                        </li> 
+                        <li class="nav__item">
+                           <a href="#skills" class="nav__link">Skills</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="#code" class="nav__link">Code</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="#skills" class="nav__link">Experience</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="#projects" class="nav__link">Projects</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="#projects" class="nav__link">Education</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="#projects" class="nav__link">Courses</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="#contacts" class="nav__link">Contacts</a>
+                        </li>
+                     </ul>
+                  </nav>
+               <div class="header__info">
+                  <h1 class="header__title">
+                     Marina Vasilevskaya
+                  </h1>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+  <!-- main -->
+  <main class="main">
+   <div class="container">
+      <div class="main__holder">
+         <div class="section__left">
+            <section class="education">
+               <h3 class="skills__subtitle">
+                  Education
+               </h3>
+               <div class="key__skills">
+                  <ul>
+                     <li>Educational institution: Minsk State College of Arts</li>
+                     <li>Faculty: folk art</li>
+                     <li>Specialization: folk music</li>
+                  </ul>
+               </div>
+               <section class="skills" id="skills">
+                  <h2 class="skills__subtitle">
+                     Skills
+                  </h2>
+                  <ul class="skills__list">
+                     <li class="skills__item skills__html">HTML</li>
+                     <li class="skills__item skills__css">CSS</li>
+                     <li class="skills__item skills__javascript">JavaScript</li>
+                     <li class="skills__item skills__github">GitHub</li>
+                  </ul>
+               </section>
+            </section>
+         </div>
+<!-- About me -->
+         <div class="main__container">
+            <section class="main__about" id="about">
+               <h2 class="main__header">
+                  About me
+               </h2>
+               <p class="main__descr">
+                  Musical director of the 1st category. Development of scenarios, holding thematic events, thematic decoration of the premises.
+               </p>
+               <p class="main__descr">
+                  I plan to develop in frontend development, strive to become part of a friendly and professional team in which I could develop my development skills to achieve team results.
+               </p>
+               <div class="about-languages">
+                  <h3 class="main__subheader">
+                     Languages:
+                  </h3>
+                  <ul class="main__list">
+                     <li class="key__skills">A2 (keep learning the language)</li>
+                  </ul>
+               </div>
+            </section>
+<!-- Code -->
+            <section class="code-example" id="code">
+               <h2 class="main__header">
+                  Code example
+               </h2>
+               <pre class="pre">
+                  <code class="code">
+function digits(n) {
+      if(n === 0) {
+      return 1;
+}
+         for(var i = 0; Math.floor(n) > 0; i++) {
+      n /= 10;
+}
+      return i;
+}
+                  </code>
+               </pre>
+            </section>
+            <section class="projects" id="projects">
+               <h2 class="main__header">
+                  Projects
+               </h2>
+               <div class="projects__info">
+                  <ul>
+                     <li>
+                        <a href="https://mari-vasilevskaya.github.io/rsschool-cv/cv" target="_blank">CV Markdown</a>
+                     </li>
+                     <li>
+                        <a href="https://mari-vasilevskaya.github.io/rsschool-cv/" target="_blank">CV HTML</a>
+                     </li>
+                  </ul>
+               </div>
+            </section>
+         </div>
+      </div>
+   </div>
+</main>
+<footer>
+   <div class="footer-container">
+      <div class="footer__logo">
+         <a href="https://rs.school/courses/javascript-ru" target="_blank">
+            <img src="./img/svg/rs_school_js.svg" alt="RS_School-Logo">
          </a>
       </div>
-   </main>
-   <footer>
-      <div class="footer-container">
-         <div class="footer__logo">
-            <a href="https://rs.school/js/">
-               <img src="./img/svg/rs_school.svg" alt="RS_School-Logo">
+      <div class="year">
+         <b>2024</b>
+      </div>
+      <div class="contacts">
+         <div>
+            <a id="contacts">
+               <h3 class="footer__header">
+                  Contacts
+               </h3>
             </a>
          </div>
-         <div class="year">
-            <b>2023</b>
-         </div>
-         <div class="contacts">
-            <div>
-               <a id="contacts">
-                  <h3>Contacts</h3>
-               </a>
-            </div>
-            <div>
-               <ul class="footer__list key-skills">
-                  <li>
-                     <a class="active" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank"><b>marivasilevskaa3@gmail.com</b></a>
-                  </li>
-                  <li>
-                     <a class="active" href="https://github.com/Mari-Vasilevskaya" target="_blank"><b>GitHub: Mari-Vasilevskaya</b></a>
-                  </li>
-                  <li>
-                     <a class="active" href="https://discord.com/channels/516715744646660106/747714817845887036" target="_blank"><b>Discord: m.ari_v.asilevskaya</b></a>
-                  </li>
-               </ul>
-            </div>
+         <div>
+            <ul class="footer__list">
+               <li>
+                  <a class="active" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank"><b>marivasilevskaa3@gmail.com</b></a>
+               </li>
+               <li>
+                  <a class="active" href="https://github.com/Mari-Vasilevskaya" target="_blank"><b>GitHub: Mari-Vasilevskaya</b></a>
+               </li>
+               <li>
+                  <a class="active" href="https://discord.com/channels/516715744646660106/747714817845887036" target="_blank"><b>Discord: m.ari_v.asilevskaya</b></a>
+               </li>
+            </ul>
          </div>
       </div>
-   </footer>
+   </div>
+</footer>
 </body>
 </html>
