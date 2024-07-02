@@ -44,12 +44,16 @@ h3 {
    font-weight: 400;
    font-size: 15px;
    text-align: center;
+   margin: 0;
+   padding: 0;
 }
 p {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 400;
    font-size: 15px;
+   margin: 0;
+   padding: 0;
    text-align: justify;
 }
 ul {
@@ -67,6 +71,8 @@ a {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 400;
+   margin: 0;
+   padding: 0;
    transition: .9s;
 }
 /* header */
@@ -156,7 +162,7 @@ a {
 /* section__left */
 .section__left {
    width: 30%;
-   padding: 20px 20px 0 20px;
+   padding: 20px 15px 0 20px;
    background: linear-gradient(to right, #fdfdfd8e, #3c444454, #fdfdfd8e);
    color: #000;
    display: flex;
@@ -285,6 +291,7 @@ a {
    width: 1000px;
    overflow: hidden;
    margin-top: 10px;
+   margin-bottom: 10px;
    background: linear-gradient(to right, #fdfdfd8e, #3c444454, #fdfdfd8e);
    display: flex;
    align-items: center;
@@ -339,6 +346,7 @@ img {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   line-height: 25px;
 }
 .active:hover {
    color: red;
