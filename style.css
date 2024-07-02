@@ -258,7 +258,27 @@ a {
    display: flex;
    flex-direction: column
 }
-
+/* Code */
+.code-example .pre {
+   margin: 0;
+   display: flex;
+   align-self: center;
+   width: 100%
+}
+.code-example .code {
+   width: 100%;
+   line-height: 22px;
+   padding: 0;
+}
+.projects__info {
+   width: inherit;
+   line-height: 23px;
+   margin-top: 5px;
+   margin-bottom: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
 
 
 
