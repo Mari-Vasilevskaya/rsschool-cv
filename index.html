@@ -25,7 +25,7 @@
                      <ul class="nav__list">
                         <li class="nav__item">
                            <a href="#about" class="nav__link">About Me</a>
-                        </li> 
+                        </li>
                         <li class="nav__item">
                            <a href="#skills" class="nav__link">Skills</a>
                         </li>
@@ -118,9 +118,8 @@
 let tr = '';
 resultTable.innerHTML = '';
 let storagedPlayers = [];
-
 for (let [key, value] of Object.entries(localStorage)) {
-   storagedPlayers.push(JSON.parse(value));
+storagedPlayers.push(JSON.parse(value));
 }
                   </code>
                </pre>
