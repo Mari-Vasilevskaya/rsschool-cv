@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon_io/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon_io/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon_io/favicon-16x16.png">
+   <link rel="manifest" href="./img/favicon_io/site.webmanifest">
+   <link rel="stylesheet" href="./inter-v13-latin/inter-v13-latin-700.woff2">
+   <link rel="stylesheet" href="./inter-v13-latin/inter-v13-latin-regular.woff2">
+   <link rel="stylesheet" href="./reset.css">
+   <link rel="stylesheet" href="./style.css">
+   <title>Rsschool-cv-html</title>
+</head>
+<body>
+   <header class="header">
+      <div class="container">
+          <div class="header__container">
+            <div class="header__photo">
+               <img src="./img/DSC_0921.jpg" alt="photo" class="photo__container">
+            </div>
+               <div class="header__content">
+                  <nav class="header__menu">
+                     <ul class="nav__list">
+                        <li class="nav__item">
+                           <a href="#about" class="nav__link">About Me</a>
+                        </li> 
+                        <li class="nav__item">
+                           <a href="#skills" class="nav__link">Skills</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="#code" class="nav__link">Code</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="#skills" class="nav__link">Experience</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="#projects" class="nav__link">Projects</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="#projects" class="nav__link">Education</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="#projects" class="nav__link">Courses</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="#contacts" class="nav__link">Contacts</a>
+                        </li>
+                     </ul>
+                  </nav>
+               <div class="header__info">
+                  <h1 class="header__title">
+                     Marina Vasilevskaya
+                  </h1>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+  <!-- main -->
+  <main class="main">
+   <div class="container">
+      <div class="main__holder">
+         <div class="section__left">
+            <section class="education">
+               <h3 class="skills__subtitle">
+                  Education
+               </h3>
+               <div class="key__skills">
+                  <ul>
+                     <li>Educational institution: Minsk State College of Arts</li>
+                     <li>Faculty: folk art</li>
+                     <li>Specialization: folk music</li>
+                  </ul>
+               </div>
+               <section class="skills" id="skills">
+                  <h2 class="skills__subtitle">
+                     Skills
+                  </h2>
+                  <ul class="skills__list">
+                     <li class="skills__item skills__html">HTML</li>
+                     <li class="skills__item skills__css">CSS</li>
+                     <li class="skills__item skills__javascript">JavaScript</li>
+                     <li class="skills__item skills__github">GitHub</li>
+                  </ul>
+               </section>
+            </section>
+         </div>
+<!-- About me -->
+         <div class="main__container">
+            <section class="main__about" id="about">
+               <h2 class="main__header">
+                  About me
+               </h2>
+               <p class="main__descr">
+                  Musical director of the 1st category. Development of scenarios, holding thematic events, thematic decoration of the premises.
+               </p>
+               <p class="main__descr">
+                  I plan to develop in frontend development, strive to become part of a friendly and professional team in which I could develop my development skills to achieve team results.
+               </p>
+               <div class="about-languages">
+                  <h3 class="main__subheader">
+                     Languages:
+                  </h3>
+                  <ul class="main__list">
+                     <li class="key__skills">A2 (keep learning the language)</li>
+                  </ul>
+               </div>
+            </section>
+<!-- Code -->
+            <section class="code-example" id="code">
+               <h2 class="main__header">
+                  Code example
+               </h2>
+               <pre class="pre">
+                  <code class="code">
+let tr = '';
+resultTable.innerHTML = '';
+let storagedPlayers = [];
+
+for (let [key, value] of Object.entries(localStorage)) {
+   storagedPlayers.push(JSON.parse(value));
+}
+                  </code>
+               </pre>
+            </section>
+            <section class="projects" id="projects">
+               <h2 class="main__header">
+                  Projects
+               </h2>
+               <div class="projects__info">
+                  <ul>
+                     <li>
+                        <a href="https://rolling-scopes-school.github.io/mari-vasilevskaya-JSFEPRESCHOOL2024Q2/random-game/" target="_blank">random-game</a>
+                     </li>
+                     <li>
+                        <a href="https://mari-vasilevskaya.github.io/rsschool-cv/" target="_blank">CV HTML</a>
+                     </li>
+                  </ul>
+               </div>
+            </section>
+         </div>
+      </div>
+   </div>
+</main>
+<footer>
+   <div class="footer-container">
+      <div class="footer__logo">
+         <a href="https://rs.school/courses/javascript-ru" target="_blank">
+            <img src="./img/svg/rs_school_js.svg" alt="RS_School-Logo">
+         </a>
+      </div>
+      <div class="year">
+         <b>2024</b>
+      </div>
+      <div class="contacts">
+         <div>
+            <a id="contacts">
+               <h3 class="footer__header">
+                  Contacts
+               </h3>
+            </a>
+         </div>
+         <div>
+            <ul class="footer__list">
+               <li>
+                  <a class="active" href="https://mail.google.com/mail/u/0" target="_blank"><b>marivasilevskaa3@gmail.com</b></a>
+               </li>
+               <li>
+                  <a class="active" href="https://github.com/Mari-Vasilevskaya" target="_blank"><b>GitHub: Mari-Vasilevskaya</b></a>
+               </li>
+               <li>
+                  <a class="active" href="https://discord.com/channels/516715744646660106/747714817845887036" target="_blank"><b>Discord: m.ari_v.asilevskaya</b></a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</footer>
+</body>
+</html>
