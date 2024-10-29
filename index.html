@@ -115,14 +115,12 @@
                </h2>
                <pre class="pre">
                   <code class="code">
-function digits(n) {
-      if(n === 0) {
-      return 1;
-}
-         for(var i = 0; Math.floor(n) > 0; i++) {
-      n /= 10;
-}
-      return i;
+let tr = '';
+resultTable.innerHTML = '';
+let storagedPlayers = [];
+
+for (let [key, value] of Object.entries(localStorage)) {
+   storagedPlayers.push(JSON.parse(value));
 }
                   </code>
                </pre>
@@ -134,7 +132,7 @@ function digits(n) {
                <div class="projects__info">
                   <ul>
                      <li>
-                        <a href="https://mari-vasilevskaya.github.io/rsschool-cv/cv" target="_blank">CV Markdown</a>
+                        <a href="https://rolling-scopes-school.github.io/mari-vasilevskaya-JSFEPRESCHOOL2024Q2/random-game/" target="_blank">random-game</a>
                      </li>
                      <li>
                         <a href="https://mari-vasilevskaya.github.io/rsschool-cv/" target="_blank">CV HTML</a>
@@ -167,7 +165,7 @@ function digits(n) {
          <div>
             <ul class="footer__list">
                <li>
-                  <a class="active" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank"><b>marivasilevskaa3@gmail.com</b></a>
+                  <a class="active" href="https://mail.google.com/mail/u/0" target="_blank"><b>marivasilevskaa3@gmail.com</b></a>
                </li>
                <li>
                   <a class="active" href="https://github.com/Mari-Vasilevskaya" target="_blank"><b>GitHub: Mari-Vasilevskaya</b></a>
